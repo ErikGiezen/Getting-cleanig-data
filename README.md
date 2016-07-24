@@ -16,6 +16,23 @@ Th run_analysis.R scipt is part of de Peer Graded Assignment of de Getting and C
     <li>\UCI HAR Dataset\test\X_test.txt</li>
  	  <li>\UCI HAR Dataset\test\y_test.txt</li>
  	</ul></ul>
- 	  <li>Install the reshape2 package in R</li>
- 	</ol>
+ 	  <li>Have the reshape2 package installed</li>
+ 	</ol><br/>
+ 	
+ 	
+Then you can run the r script wich wil:
+<ul>
+<li>read al the text files into dataframes
+<li>ad column names to the dataframes
+<li>combine the dataframes to one dataset
+<li>select the mean, stdev, subject and activity_id colums
+<li>tidy the data by adding values for activities an variables
+<li>create a second, independent tidy data set with the average of each variable for each activity and each subject
+</ul>
+
+The result of the script is a printed text file called eind.txt. Eind being the Dutch wordt for finished.
+</ul>
+
+ 	
+ 	
   
