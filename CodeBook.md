@@ -47,7 +47,7 @@ The set of variables that were estimated from these signals are:
 <li>std(): Standard deviation</li>
 </ul>
 
-Features are normalized and bounded within [-1,1]
+Features are normalized, flouting point values and bounded within [-1,1]
 
 ##Tidy dataset
 The tidy dataset contains for eacht subject and activty combination the mean 
