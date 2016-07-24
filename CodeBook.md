@@ -19,6 +19,36 @@ The data used represent data collected from the accelerometers from the Samsung 
 	</ul>
 </ul>
 
-##Measurement 
-	
+##Measurement
+<ul>
+<li>tBodyAcc-XYZ
+<li>tGravityAcc-XYZ
+<li>tBodyAccJerk-XYZ
+<li>tBodyGyro-XYZ
+<li>tBodyGyroJerk-XYZ
+<li>tBodyAccMag
+<li>tGravityAccMag
+<li>tBodyAccJerkMag
+<li>tBodyGyroMag
+<li>tBodyGyroJerkMag
+<li>fBodyAcc-XYZ
+<li>fBodyAccJerk-XYZ
+<li>fBodyGyro-XYZ
+<li>fBodyAccMag
+<li>fBodyAccJerkMag
+<li>fBodyGyroMag
+<li>fBodyGyroJerkMag
+</ul>
+
+The set of variables that were estimated from these signals are: 
+
+<ul>
+<li>mean(): Mean value</li>
+<li>std(): Standard deviation</li>
+</ul>
+
+Features are normalized and bounded within [-1,1]
+
+##Tidy dataset
+The tidy dataset contains for eacht subject and activty combination the mean 
 	
