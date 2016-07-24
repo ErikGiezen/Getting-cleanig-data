@@ -10,3 +10,20 @@ test_subject <- read.table("subject_test.txt", header = FALSE)
 test_x <- read.table("X_test.txt", header = FALSE)
 test_y <- read.table("y_test.txt", header = FALSE)
 
+
+# add column names for measurments, subjects, variabels and labels
+names(train_x) <- features[,2]
+names(test_x) <- features[,2]
+names(train_subject) <- "subject"
+names(test_subject) <- "subject"
+names(train_y) <- "activity_id"
+names(test_y) <- "activity_id"
+names(labels)[1]<-"id"
+names(labels)[2]<-"activity"
+
+
+# merge dataframes into one dataset
+train <- cbind(train_subject, train_y, train_x)
+test <- cbind(test_subject, test_y, test_x)
+merged <- rbind(train, test)
+
