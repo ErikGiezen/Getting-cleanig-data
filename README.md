@@ -9,6 +9,7 @@ Th run_analysis.R scipt is part of de Peer Graded Assignment of de Getting and C
   </ol>
   <ul><ul>
     <li>\UCI HAR Dataset\features.txt</li>
+    <li>\UCI HAR Dataset\labels.txt</li>
     <li>\UCI HAR Dataset\train\subject_train.txt</li>  
     <li>\UCI HAR Dataset\train\X_train.txt</li>
     <li>\UCI HAR Dataset\train\y_train.txt</li>
