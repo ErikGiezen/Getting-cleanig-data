@@ -6,7 +6,6 @@ Th run_analysis.R scipt is part of de Peer Graded Assignment of de Getting and C
     <li>Download the zip file from <a     href="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip">here</a>.</li> 
     <li>Unzip the file</li> 
     <li>Move the folowing files to the same folder as the R script:</li>
-  </ol>
   <ul><ul>
     <li>\UCI HAR Dataset\features.txt</li>
     <li>\UCI HAR Dataset\labels.txt</li>
@@ -17,4 +16,6 @@ Th run_analysis.R scipt is part of de Peer Graded Assignment of de Getting and C
     <li>\UCI HAR Dataset\test\X_test.txt</li>
  	  <li>\UCI HAR Dataset\test\y_test.txt</li>
  	</ul></ul>
+ 	  <li>Install the reshape2 package in R<li>
+ 	</ol>
   
