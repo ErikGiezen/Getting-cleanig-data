@@ -27,3 +27,20 @@ train <- cbind(train_subject, train_y, train_x)
 test <- cbind(test_subject, test_y, test_x)
 merged <- rbind(train, test)
 
+## 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+
+selectedcolumns <- grep("(mean|std)\\(\\)|subject|activity", names(merged))
+meanstdset <- merged[, selectedcolumns]
+
+
+## 3. Uses descriptive activity names to name the activities in the data set.
+meanstdset <- merge(meanstdset, labels, by.x="activity_id", by.y="id")
+meanstdset <- subset(meanstdset, select = -activity_id)
+
+
+## 4. Appropriately labels the data set with descriptive variable names.
+#already done by names(train_x) <- features[,2], names(test_x) <- features[,2]
+
+## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+melted <- melt(meanstdset, id=c("subject","activity"))
+tidy <- dcast(melted, subject+activity ~ variable, mean)
