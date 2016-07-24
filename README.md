@@ -16,6 +16,6 @@ Th run_analysis.R scipt is part of de Peer Graded Assignment of de Getting and C
     <li>\UCI HAR Dataset\test\X_test.txt</li>
  	  <li>\UCI HAR Dataset\test\y_test.txt</li>
  	</ul></ul>
- 	  <li>Install the reshape2 package in R<li>
+ 	  <li>Install the reshape2 package in R</li>
  	</ol>
   
